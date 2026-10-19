@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.retaj.studentgrades.controller.ReportsController" alignment="CENTER" spacing="15">
+    <VBox styleClass="card" alignment="CENTER" spacing="15">
+        <Label text="View Reports" styleClass="title" />
+        <Label fx:id="totalLabel" styleClass="subtitle" />
+        <Label fx:id="averageLabel" styleClass="subtitle" />
+        <Label fx:id="highestLabel" styleClass="subtitle" />
+        <Button text="Back" onAction="#back" />
+    </VBox>
+</VBox>

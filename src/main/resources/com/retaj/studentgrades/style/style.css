@@ -1,0 +1,35 @@
+.root {
+    -fx-background-color: #eef7f8;
+    -fx-font-family: "Arial";
+}
+.card {
+    -fx-background-color: white;
+    -fx-padding: 35;
+    -fx-border-color: #0b777a;
+    -fx-border-width: 2;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+}
+.title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0b777a;
+    -fx-padding: 20;
+}
+.button {
+    -fx-background-color: #0b777a;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10 18;
+    -fx-background-radius: 8;
+}
+.secondary-button {
+    -fx-background-color: #777777;
+}
+.message {
+    -fx-text-fill: #b00020;
+    -fx-font-weight: bold;
+}
+.text-field, .password-field, .text-area {
+    -fx-font-size: 14px;
+}

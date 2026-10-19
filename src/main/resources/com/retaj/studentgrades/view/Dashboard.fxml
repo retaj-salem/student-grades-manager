@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.retaj.studentgrades.controller.DashboardController">
+    <center>
+        <VBox alignment="CENTER" spacing="15" styleClass="card">
+            <Label text="Dashboard" styleClass="title" />
+            <Button text="Add Student" onAction="#openAddStudent" maxWidth="260" />
+            <Button text="Add Grades" onAction="#openAddGrades" maxWidth="260" />
+            <Button text="View Students" onAction="#openViewStudents" maxWidth="260" />
+            <Button text="View Reports" onAction="#openReports" maxWidth="260" />
+            <Button text="Logout" onAction="#logout" maxWidth="260" styleClass="secondary-button" />
+        </VBox>
+    </center>
+</BorderPane>

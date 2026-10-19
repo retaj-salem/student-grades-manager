@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.retaj.studentgrades.controller.DashboardController" alignment="CENTER" spacing="18">
+    <Label text="Dashboard" styleClass="title" />
+    <Label text="Choose a window" styleClass="subtitle" />
+    <GridPane hgap="15" vgap="15" alignment="CENTER">
+        <Button text="Add Student" onAction="#openAddStudent" GridPane.rowIndex="0" GridPane.columnIndex="0" prefWidth="180" />
+        <Button text="Add Grades" onAction="#openAddGrade" GridPane.rowIndex="0" GridPane.columnIndex="1" prefWidth="180" />
+        <Button text="View Students" onAction="#openViewStudents" GridPane.rowIndex="1" GridPane.columnIndex="0" prefWidth="180" />
+        <Button text="View Reports" onAction="#openReports" GridPane.rowIndex="1" GridPane.columnIndex="1" prefWidth="180" />
+    </GridPane>
+    <Button text="Logout" onAction="#logout" />
+</VBox>

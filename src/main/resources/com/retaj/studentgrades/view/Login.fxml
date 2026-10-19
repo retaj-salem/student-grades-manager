@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.retaj.studentgrades.controller.LoginController">
+    <center>
+        <VBox alignment="CENTER" spacing="15" styleClass="card">
+            <Label text="Student Grades Manager" styleClass="title" />
+            <TextField fx:id="usernameField" promptText="Username: admin" maxWidth="260" />
+            <PasswordField fx:id="passwordField" promptText="Password: 1234" maxWidth="260" />
+            <Button text="Login" onAction="#login" maxWidth="260" />
+            <Label fx:id="messageLabel" styleClass="message" />
+        </VBox>
+    </center>
+</BorderPane>

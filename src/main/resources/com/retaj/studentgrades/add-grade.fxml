@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.retaj.studentgrades.controller.AddGradeController" alignment="CENTER" spacing="15">
+    <VBox styleClass="card" alignment="CENTER" spacing="12">
+        <Label text="Add Grades" styleClass="title" />
+        <TextField fx:id="idField" promptText="Student ID" />
+        <TextField fx:id="gradeField" promptText="Grade 0 - 100" />
+        <HBox alignment="CENTER" spacing="10">
+            <Button text="Save Grade" onAction="#saveGrade" />
+            <Button text="Back" onAction="#back" />
+        </HBox>
+        <Label fx:id="messageLabel" styleClass="message" />
+    </VBox>
+</VBox>

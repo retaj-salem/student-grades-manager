@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.retaj.studentgrades.controller.ViewStudentsController" alignment="CENTER" spacing="12" padding="20">
+    <Label text="View Students" styleClass="title" />
+    <TableView fx:id="tableView" prefWidth="620" prefHeight="300">
+        <columns>
+            <TableColumn fx:id="idColumn" text="ID" prefWidth="130" />
+            <TableColumn fx:id="nameColumn" text="Name" prefWidth="200" />
+            <TableColumn fx:id="majorColumn" text="Major" prefWidth="170" />
+            <TableColumn fx:id="gradeColumn" text="Grade" prefWidth="120" />
+        </columns>
+    </TableView>
+    <HBox alignment="CENTER" spacing="10">
+        <Button text="Refresh" onAction="#refresh" />
+        <Button text="Back" onAction="#back" />
+    </HBox>
+</VBox>
